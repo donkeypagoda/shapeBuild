@@ -25,22 +25,27 @@ context.lineWidth = 1;
 context.stroke();
 
 let triangleMallet1 = new Mallet();
-triangleMallet1.x = 240;
-triangleMallet1.y = 0;
+triangleMallet1.x = 182;
+triangleMallet1.y = 158;
 
 
 let triangleMallet2 = new Mallet();
-triangleMallet2.x = -120;
-triangleMallet2.y = 205;
+triangleMallet2.x = -182;
+triangleMallet2.y = 158;
 
 
 let triangleMallet3 = new Mallet();
-triangleMallet3.x = -120;
-triangleMallet3.y = -205;
+triangleMallet3.x = -182;
+triangleMallet3.y = -158;
+
+let triangleMallet4 = new Mallet();
+triangleMallet4.x = 182;
+triangleMallet4.y = -158;
 
 singleLine(context, triangleMallet1, triangleMallet2);
 singleLine(context, triangleMallet2, triangleMallet3);
-singleLine(context, triangleMallet3, triangleMallet1);
+singleLine(context, triangleMallet3, triangleMallet4);
+singleLine(context, triangleMallet4, triangleMallet1);
 
 // draw the mallets
 context.beginPath();
@@ -55,6 +60,11 @@ context.fill();
 
 context.beginPath();
 context.arc(triangleMallet3.x, triangleMallet3.y, triangleMallet3.r, 0, 2 * Math.PI, false);
+context.stroke();
+context.fill();
+
+context.beginPath();
+context.arc(triangleMallet4.x, triangleMallet4.y, triangleMallet4.r, 0, 2 * Math.PI, false);
 context.stroke();
 context.fill();
 
