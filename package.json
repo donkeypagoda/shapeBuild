@@ -1,0 +1,22 @@
+{
+  "name": "shapebuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donkeypagoda/shapeBuild.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donkeypagoda/shapeBuild/issues"
+  },
+  "homepage": "https://github.com/donkeypagoda/shapeBuild#readme",
+  "dependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

@@ -25,21 +25,21 @@ context.lineWidth = 1;
 context.stroke();
 
 let triangleMallet1 = new Mallet();
-triangleMallet1.x = 182;
+triangleMallet1.x = 175;
 triangleMallet1.y = 158;
 
 
 let triangleMallet2 = new Mallet();
-triangleMallet2.x = -182;
+triangleMallet2.x = -175;
 triangleMallet2.y = 158;
 
 
 let triangleMallet3 = new Mallet();
-triangleMallet3.x = -182;
+triangleMallet3.x = -175;
 triangleMallet3.y = -158;
 
 let triangleMallet4 = new Mallet();
-triangleMallet4.x = 182;
+triangleMallet4.x = 175;
 triangleMallet4.y = -158;
 
 singleLine(context, triangleMallet1, triangleMallet2);
