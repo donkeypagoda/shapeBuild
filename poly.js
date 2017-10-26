@@ -23,7 +23,8 @@ var numberOfSides = 5,
     size = 240,
     Xcenter = 0,
     Ycenter = 0;
-
+    // the Xcenter and Ycenter could be re-introduced into the polyGon project function within helperService to add a movement to these gong rings
+    // also, the size variable could allow the gongs to expand, possibly seeming to bounce in their rotation
 context.beginPath();
 context.moveTo (Xcenter +  size * Math.cos(0), Ycenter +  size *  Math.sin(0));
 
