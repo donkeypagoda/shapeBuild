@@ -72,3 +72,15 @@ context.beginPath();
 context.arc(0, 0, 240, 0, Math.PI * 2, false);
 context.lineWidth = 1;
 context.stroke();
+
+var path = anime.path('#motionPath path');
+
+var motionPath = anime({
+  targets: '#motionPath .el',
+  translateX: path('x'),
+  translateY: path('y'),
+  rotate: path('angle'),
+  easing: 'linear',
+  duration: 2000,
+  loop: true
+});
